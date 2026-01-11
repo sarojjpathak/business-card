@@ -83,9 +83,9 @@ color: #F5F5F5;
  font-family: Inter;
 font-weight: 400;
 font-style: Regular;
-font-size: 12px;
+font-size: 14px;
 
-line-height: 150%;
+line-height: 95%;
 letter-spacing: 0%;
 color: #DCDCDC;
 
@@ -94,9 +94,9 @@ color: #DCDCDC;
   font-family: Inter;
 font-weight: 700;
 font-style: Bold;
-font-size: 16px;
+font-size: 18px;
 
-line-height: 150%;
+line-height: 22%;
 letter-spacing: 0%;
 color:#DCDCDC ;
 
@@ -142,5 +142,44 @@ transition: transform 0.3s ease;
   flex-wrap: wrap;
   gap: 30px;
 }
+.email{
+  height: 35px;
+  width: 115px;
+  background-color: white;
+  color: #23252C;
+  border-radius: 6px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.linkedin{
+  display: flex;
+    justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 115px;
+  background-color: #5093E2;
+  color: white;
+  border-radius: 6px;
+}
+.mid{
+  width: 317px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  margin: 0;
+  position: relative;
+  top: -30px;
+}
+.content{
+  position: relative;
+  top: -15px;
+}
 
 
+a{
+  text-decoration: none;
+}
