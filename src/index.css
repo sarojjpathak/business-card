@@ -1,0 +1,146 @@
+
+
+p , h2{
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+.cardcontainer{
+  height: 868px;
+  width: 550px;
+  background-color: #23252C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.inner{
+  height: 780px;
+  width: 317px;
+  background-color: wheat;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.profile{
+  height: 317px;
+  width: 317px;
+ 
+}
+.maininfo{
+  height: 399px;
+  width: 317px;
+  background-color: #1A1B21;
+   margin-top: -30px;
+   position: absolute;
+   
+}
+.name{
+ font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 25px;
+position: relative;
+top: 0px;
+
+
+text-align: center;
+color: #FFFFFF;
+
+
+}
+.possition{
+  font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 15px;
+position: relative;
+top: -14px;
+
+letter-spacing: 0%;
+text-align: center;
+color: #F3BF99;
+
+}
+.website{
+  font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+position: relative;
+top: -24px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+color: #F5F5F5;
+
+}
+
+.abtd,.intd {
+  display: block;
+  text-align: left;
+ font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 12px;
+
+line-height: 150%;
+letter-spacing: 0%;
+color: #DCDCDC;
+
+}
+.about,.int{
+  font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 16px;
+
+line-height: 150%;
+letter-spacing: 0%;
+color:#DCDCDC ;
+
+}
+.footer{
+  width: 317px;
+height: 90px;
+position: absolute;
+bottom: 0px;
+background-color: #161619;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 15px;
+}
+.icon{
+  font-size: 30px;
+  color: #918E9B;
+  
+}
+.instagram:hover{
+
+
+  color: rgb(217, 81, 158);
+  
+}
+.icon:hover{
+font-size: 42px;
+cursor: pointer;
+transition: transform 0.3s ease;
+}
+.x:hover{
+  color: rgb(43, 127, 173);
+}
+.facebook:hover{
+  color:rgb(37, 37, 173);
+}
+.github:hover{
+  color: black;
+}
+.card-collection{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+
