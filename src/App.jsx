@@ -8,8 +8,7 @@ function App() {
     <>
     <div className="card-collection">
     <Card/>
-    <Card/>
-    <Card/>
+    
     </div>
     </>
   );
